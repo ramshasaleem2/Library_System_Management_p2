@@ -1236,5 +1236,7 @@ FROM
     JOIN employees as e ON e.emp_id = ist.issued_emp_id
     JOIN branch as b ON e.branch_id = b.branch_id
 GROUP BY
-    1,
-    2
+    1, 2;
+
+
+--End of Project 2--
